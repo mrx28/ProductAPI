@@ -14,18 +14,14 @@ namespace ProductsAPI.Controllers
             _productService = productService;
         }
 
-        [HttpPost]
-        public IActionResult AddProduct(ProductDto obj)
+        [HttpPost("AddProduct")]
+        public IActionResult AddProduct([FromBody] ProductDto obj)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
             _productService.AddProduct(obj);
             return Ok();
         }
 
-        [HttpGet]
+        [HttpGet("GetProducts")]
         public IActionResult GetProducts()
         {
             var res = _productService.GetProducts();

@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using ProductsAPI.Dto;
 using ProductsAPI.Entities;
+using ProductsAPI.Exceptions;
 using ProductsAPI.Interfaces;
 
 namespace ProductsAPI.Services
@@ -27,6 +28,10 @@ namespace ProductsAPI.Services
         public IList<ProductDto> GetProducts()
         {
             var prods = _productRepsitory.GetAll();
+            if(prods is null)
+            {
+                throw new NotFoundException("List of products is empty!");
+            }
             List<ProductDto> res = _mapper.Map<List<ProductDto>>(prods); 
             return res;
         }

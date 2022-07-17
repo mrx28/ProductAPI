@@ -5,7 +5,8 @@ namespace ProductsAPI.Dto
     public class ProductDto
     {
         [Required]
-        [MaxLength(25)]
+        [MaxLength(10)]
+        [MinLength(2)]
         public string? Code { get; set; }
         [Required]
         [MaxLength(250)]
