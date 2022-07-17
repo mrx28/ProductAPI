@@ -8,8 +8,7 @@ namespace ProductsAPI
     {
         public MappingProfile()
         {
-            CreateMap<Product, ProductDto>();            
-            CreateMap<ProductDto, Product>();
+            CreateMap<Product, ProductDto>();
 
         }
     }

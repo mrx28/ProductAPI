@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iyCQv8kyctr0RFHZTZwFMaf72g2xMMO33Pd1kLub5KEGOdanjlhoFA5m6Yfi+BfGjv4kg10pyIdOSsqOVtCuYg==",
+  "dgSpecHash": "baPHnyl+/mpgVANwB82V6q1VgV6soa8jiSb6X7MtI3LxMwjwztIMP3vZnYQn4Ozq4yl9yQ7/FhFbZWjRU+k/zQ==",
   "success": true,
   "projectFilePath": "C:\\visual\\Products\\ProductsAPI\\ProductsAPI\\ProductsAPI.csproj",
   "expectedPackageFiles": [
@@ -37,6 +37,9 @@
     "C:\\Users\\m.zmarzly\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\m.zmarzly\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\m.zmarzly\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\m.zmarzly\\.nuget\\packages\\nlog\\5.0.0\\nlog.5.0.0.nupkg.sha512",
+    "C:\\Users\\m.zmarzly\\.nuget\\packages\\nlog.extensions.logging\\5.0.0\\nlog.extensions.logging.5.0.0.nupkg.sha512",
+    "C:\\Users\\m.zmarzly\\.nuget\\packages\\nlog.web.aspnetcore\\5.0.0\\nlog.web.aspnetcore.5.0.0.nupkg.sha512",
     "C:\\Users\\m.zmarzly\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\m.zmarzly\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\m.zmarzly\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

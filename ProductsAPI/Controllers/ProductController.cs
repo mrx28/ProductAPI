@@ -17,6 +17,10 @@ namespace ProductsAPI.Controllers
         [HttpPost]
         public IActionResult AddProduct(ProductDto obj)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
             _productService.AddProduct(obj);
             return Ok();
         }
